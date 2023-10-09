@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100% ; 
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(163, 243, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#pannel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(247, 249, 251);
+    border-radius: 10px;
+}
+#ttop{
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(18, 51, 18);
+}
+h3{
+    text-align: center;
+    
+}
+.jkb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box{
+    padding-left: 50px;
+    padding-top: 5px;
+    display: flex;
+    margin: 20px;
+    width: 25%;
+    
+}
+.dibba{
+    color: black;
+    font-size: 20px;
+    padding: 10px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+#tbot{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    height: 80%;
+    /* background-color: black; */
+    color: blue;
+    /* font-size: 50px; */
+    
+}
+.bubble{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
